@@ -1,4 +1,4 @@
-import s from "./Contact.module.css";
+import s from "../Contact/Contact.module.css";
 import { FaUser, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = ({ name, number, id, deleteContact }) => {

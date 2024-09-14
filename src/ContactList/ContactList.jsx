@@ -1,5 +1,5 @@
 import Contact from "../Contact/Contact";
-import s from "./ContactList.module.css";
+import s from "../ContactForm/ContactForm.module.css";
 
 const ContactList = ({ filterContact, deleteContact }) => {
   return (

@@ -35,6 +35,6 @@
 }
 .addButton:hover,
 .addButton:focus {
-  transition: border-color 0.25s;
+  transition: border-color 0.26s;
   border-color: black;
 }

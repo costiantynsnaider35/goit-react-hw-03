@@ -1,3 +1,5 @@
+import s from "./SearchBox.module.css";
+
 const SearchBox = ({ filter, onFilterContact }) => {
   return (
     <div className={s.container}>

@@ -1,7 +1,7 @@
 import { Formik, Form, ErrorMessage, Field } from "formik";
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
-import s from "./contactForm.module.css";
+import s from "./ContactForm.module.css";
 
 const ContactForm = ({ addNewContact }) => {
   const usernameId = nanoid();

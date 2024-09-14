@@ -3,7 +3,7 @@ import { FaUser, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = ({ name, number, id, deleteContact }) => {
   return (
-    <div className={s.container}>
+    <div className={s.contact}>
       <div className={s.containerList}>
         <p className={s.contactInfo}>
           <FaUser className={s.icon} />
